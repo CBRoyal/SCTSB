@@ -1,0 +1,182 @@
+:root{
+    --text-shadow-color: #000000;
+    --main-header-color: #a52a2a;
+    --main-title-bg-color: #800000;
+    --shelter-header-color: #32cd32;
+    --fire-header-color: #ff8c00;
+    --fruit-header-color: #daa520;
+    --fish-header-color: #ffb6c1;
+    --main-font-color: #ff4500;
+    --shelter-font-color:#008000;
+    --shelter-text-bg-color: #ffebcd;
+    --fire-font-color: #ffff00;
+    --fruit-font-color: #8b4513;
+    --fish-font-color: var(--shelter-header-color);
+    --fish-text-bg-color: #00ced1;
+    --main-bg-color: #006400;
+    --fire-bg-color: #b22222;
+    --fish-bg-color: #4169e1;
+}
+#main_survivor_webpage{
+    background-color: var(--main-bg-color);
+   
+}
+#shelter_building_webpage{
+    background-color: var(--fruit-font-color);
+}
+#fire_starting_webpage{
+    background-color: var(--fire-bg-color);
+}
+#fruit_picking_webpage{
+    background-color: var(--shelter-font-color);
+}
+#fishing_webpage{
+    background-color: var(--fish-bg-color);
+}
+#survivor_title{
+    border: 50px solid transparent;
+    padding: 35px;
+    border-image-source: url(https://parade.com/.image/t_share/MTkwNTgxMjEzMDQwODEzOTQ4/survivor-cambodia-960x483.jpg);
+    border-image-repeat: stretch;
+    border-image-slice: 50;
+    border-image-width: 60px;
+    border-image-outset: 30px;
+}
+#main_title{
+    font-family: "Knewave", fantasy;
+    font-size: 60px;
+    color: var(--main-header-color);
+    text-shadow: 2px 2px var(--text-shadow-color);
+}   
+#shelter_building_title, .shelter_building_steps{
+    font-family: "Knewave", fantasy;
+    font-size: 60px;
+    color: var(--shelter-header-color);
+    text-shadow: 2px 2px var(--text-shadow-color);
+}
+#fire_starting_title{
+    font-family: "Knewave", fantasy;
+    font-size: 60px;
+    color: var(--fire-header-color);
+    text-shadow: 2px 2px var(--text-shadow-color);
+}
+#fruit_picking_title{
+    font-family: "Knewave", fantasy;
+    font-size: 60px;
+    color: var(--fruit-header-color);
+    text-shadow: 2px 2px var(--text-shadow-color);
+}
+#fishing_title{
+    font-family: "Knewave", fantasy;
+    font-size: 60px;
+    color: var(--fish-header-color);
+    text-shadow: 2px 2px var(--text-shadow-color);
+}
+#survivor_camp_image{
+    float: right;
+}
+#title_description, #link_showcase{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px; 
+    color: var(--main-font-color); 
+    background-color: var(--main-title-bg-color);
+    border: 40px solid var(--main-bg-color);
+}
+#shelter_building_description, #shelter_planning_step, #material_gathering_step,
+#bamboo_layout_step, #walls_and_roofing_step, #ensealment_step, #enhancement_step,
+#safety_description{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--shelter-font-color);
+    background-color: var(--shelter-text-bg-color);
+    border: 40px solid var(--shelter-bg-color);
+}
+#fire_starting_description, #fire_starting_steps, #fire_heads_up{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--fire-font-color);
+    background-color: var(--fire-header-color);
+    border: 40px solid var(--fire-bg-color);
+}
+#fruit_picking_description, #coconut_picking_guidelines, #other_fruit_picking_guidelines{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--fruit-font-color);
+    background-color: var(--fire-font-color);
+    border: 40px solid var(--shelter-font-color);
+}
+#fishing_description, #fishing_gear_list, #spear_fishing_manual, #fish_trap_manual, #cast_net_manual,
+#seine_net_manual{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--shelter-font-color);
+    background-color: var(--fish-text-bg-color);
+    border: 40px solid var(--fish-bg-color);
+}
+.navigation_buttons{
+    background-color: var(--bg-color);
+    column-count: 3;
+    column-gap: 800px;
+}
+.navigation_links{
+    font-family: "Knewave", monospace;
+    font-size: 30px;
+    color: var(--fire-header-color);
+}
+.fire_navigation_links{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--fire-font-color);
+}
+.fruit_picking_navigation_links{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--fruit-font-color);
+}
+.fishing_navigation_links{
+    font-family: "Knewave", sans-serif;
+    font-size: 30px;
+    color: var(--shelter-font-color);
+}
+#link1{
+    background-color: var(--fruit-font-color);
+}
+#link2{
+    background-color: var(--fire-bg-color);
+}
+#link3{
+    background-color: var(--shelter-font-color);
+}
+#link4{
+    background-color: var(--fish-bg-color);
+}
+.navigation_links:hover{
+    color: var(--fire-font-color);
+}
+.fire_navigation_links:hover{
+    color: var(--main-title-bg-color);
+}
+#home{
+    position: initial;
+    left: 100px;
+    top: 150;
+    font-family: "Knewave", monospace;
+    color: var(--fire-header-color);
+    font-size: 30pt;
+}
+#home:hover{
+    color: var(--fire-font-color);
+}
+.survivor_footer{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.bkG7MoTFIkb1bV8L7KNgqgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3");
+    color: var(--main-bg-color);
+    text-shadow: 1px 1px var(--main-font-color);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.copyright_link, .storage_link{
+    color: var(--fire-font-color);
+}
+.copyright_link:hover, .storage_link:hover{
+    color: var(--fire-header-color);
+}
