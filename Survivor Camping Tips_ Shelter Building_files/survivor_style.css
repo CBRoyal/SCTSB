@@ -169,7 +169,7 @@
 }
 .survivor_footer{
     background-image: url("bamboo_background.jpeg");
-    color: var(--main-bg-color);
+    color: var(--fire-font-color);
     text-shadow: 1px 1px var(--main-font-color);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
